@@ -3,11 +3,11 @@
   <title>punk&#39;s blog</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://tim-punk.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://tim-punk.github.io/"/>
   <updated>2021-04-14T02:35:53.102Z</updated>
-  <id>http://example.com/</id>
+  <id>https://tim-punk.github.io/</id>
   
   <author>
     <name>punk</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2021/04/14/hello-world/"/>
-    <id>http://example.com/2021/04/14/hello-world/</id>
+    <link href="https://tim-punk.github.io/2021/04/14/hello-world/"/>
+    <id>https://tim-punk.github.io/2021/04/14/hello-world/</id>
     <published>2021-04-14T02:35:49.000Z</published>
     <updated>2021-04-14T02:35:53.102Z</updated>
     
