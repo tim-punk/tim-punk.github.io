@@ -6,7 +6,7 @@
   <link href="https://tim-punk.github.io/atom.xml" rel="self"/>
   
   <link href="https://tim-punk.github.io/"/>
-  <updated>2021-04-20T08:02:38.186Z</updated>
+  <updated>2021-04-28T02:28:07.816Z</updated>
   <id>https://tim-punk.github.io/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>inside_creator_3_astart</title>
+    <link href="https://tim-punk.github.io/2021/04/28/inside-creator-3-astart/"/>
+    <id>https://tim-punk.github.io/2021/04/28/inside-creator-3-astart/</id>
+    <published>2021-04-28T02:07:47.000Z</published>
+    <updated>2021-04-28T02:28:07.816Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/2021/04/28/inside-creator-3-astart/1.jpg" alt="cover"></p><pre><code>cocos creator3.x 之六边形A* 算法</code></pre><a id="more"></a><h4 id="导航"><a href="#导航" class="headerlink" title="导航"></a>导航</h4><p>地图已经制作完成的话，就需要导航，让角色走到指定位置，并且自动避开障碍物.从而产生了寻路算法，市面上很多算法,A<em>、D</em>、导航网格等，但万变不离其宗，都是要找出最近的路。我只拿最简单的A*算法来做</p><h4 id="A-算法"><a href="#A-算法" class="headerlink" title="A*算法"></a>A*算法</h4><ol><li>将起始节点加入open列表中</li><li>判断open节点，空则搜索失败，如果open列表存在目标节点，则搜索成功</li><li>根据F = G + H从open列表中找出F最小的节点作为当前节点，并将其加入close列表中</li><li>计算当前节点相邻的六个节点(排除障碍物)，组成一组子节点，对每个子节点做判断<ul><li>如果该节点在close列表中，丢弃。</li><li>如果该节点在open列表中，检查当前节点的F值是否更小，如果更小则更新F值，并将父节点设置为当前节点</li><li>如果该节点不在open列表中，则将其假如open列表，并计算F值，设置其父节点为当前节点</li></ul></li><li>重复2步骤<h4 id="效果展示"><a href="#效果展示" class="headerlink" title="效果展示"></a>效果展示</h4><img src="/2021/04/28/inside-creator-3-astart/2.jpg" alt="效果图"> <h4 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h4></li></ol><ul><li><a href="https://zhuanlan.zhihu.com/p/112849816">六边形A*算法</a></li><li><a href="https://www.redblobgames.com/pathfinding/a-star/introduction.html">A*算法简述(英文)</a></li><li><a href="https://www.cnblogs.com/iwiniwin/p/10793654.html">A*算法简述(中文)</a>  </li><li><a href="https://github.com/tim-punk/inside_creator/3_find_astar">github示例</a></li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2021/04/28/inside-creator-3-astart/1.jpg&quot; alt=&quot;cover&quot;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cocos creator3.x 之六边形A* 算法&lt;/code&gt;&lt;/pre&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>inside_creator_2_hexagon_terrain</title>
